@@ -93,7 +93,7 @@ int main(int argc, char *argv[]) {
     //print_matrix(m3); //print matrix output if desired
 
     //Code to print runtime in ms
-    double runTime= double(endClock-startClock) * 1000;
+    double runTime= double(endClock-startClock) * 1000 * 1000;
     cout << "\nRuntime: " << runTime << "ms\n";
   }
 
