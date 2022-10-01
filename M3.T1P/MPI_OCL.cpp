@@ -110,7 +110,7 @@ int main(int argc, char *argv[]) {
     endClock = MPI_Wtime();
 
     //Code to print runtime in ms
-    double runTime= double(endClock-startClock);
+    double runTime= double(endClock-startClock) * 1000;
     cout << "\nRuntime: " << runTime << "ms\n";
   }
 
